@@ -9,6 +9,7 @@ Algo HelloWorld {
          Créer la couleur bleue
          Mettre la couleur jaune sur le label
          // Finalisation
+         Ajouter la couleur de fond verte
          Ajouter le label sur la fenetre
          Afficher la fenêtre
      }
