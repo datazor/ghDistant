@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+read -p "Voulez-vous ajouter un fichier avec la date et l'heure du commit (y/[n]) ? " yn < /dev/tty
+yn=${yn:-n} 
+
+if [[ $yn == [Yy]* ]]; then
+    
+    mkdir -p suivi
+
+ 
+    current_time=$(date "+%Y-%m-%d %H:%M:%S")
+
+  
+    echo "commit vérifié le $current_time" > suivi/commitInfo.txt
+
+  
+    git add suivi/commitInfo.txt
+
+    echo "Fichier commitInfo.txt ajouté."
+fi
+
+exit 0
