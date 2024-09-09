@@ -13,5 +13,6 @@ Algo HelloWorld {
          Ajouter la couleur de fond verte
          Ajouter le label sur la fenetre
          Afficher la fenêtre
+	 test hook
      }
 }
